@@ -81,6 +81,7 @@ padding-left: 16px;
 .row {
     width: 100%;
     max-width: 1300px;
+    margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -163,7 +164,9 @@ input, texarea {
     padding: 6px 12px;
 }
 
-
+#footer {
+    padding: 48px 0;
+}
 
 footer {
     background-color: #aaf5ff;
@@ -174,6 +177,18 @@ footer {
 
 
 .footer__logo {
+max-width: 480px;
+margin-bottom: 16px;
+}
 
-    max-width: 480px;
+.footer__links {
+  margin-right: 32px;
+
+}
+
+
+.footer__link {
+    padding: 0 16px;
+
+
 }
